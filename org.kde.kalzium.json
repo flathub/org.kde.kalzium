@@ -21,8 +21,8 @@
             "sources": [ 
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/frameworks/5.48/portingAids/kjs-5.48.0.tar.xz", 
-                    "sha256": "8406f62fb04ce503978513ebc074a2f5e803f5b3e59eccb98f82b361aa714b7b" 
+                    "url": "https://download.kde.org/stable/frameworks/5.53/portingAids/kjs-5.53.0.tar.xz",
+                    "sha256": "89111e457c06af13f3c904eca4458e6cb8e4bab051ae29504c02b5ea7c3f2cca"
                 } 
             ]
         },
@@ -33,8 +33,8 @@
             "sources": [ 
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/frameworks/5.48/portingAids/khtml-5.48.0.tar.xz", 
-                    "sha256": "a1923402f04f4a72e8688004a00e47fe79f7f72d703d53a14058eebdb7a531ff" 
+                    "url": "https://download.kde.org/stable/frameworks/5.53/portingAids/khtml-5.53.0.tar.xz",
+                    "sha256": "de85b04cd71357ced676c2e15643c8a65cc29b3eef5983c3308b7c9126be951d"
                 } 
             ]
         },
@@ -45,8 +45,8 @@
             "sources": [ 
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/frameworks/5.48/portingAids/kdelibs4support-5.48.0.tar.xz", 
-                    "sha256": "0e7f654bacd1e70aefb216998cd67d3280f6bbbf1ca6a2ee882142a70d2c1a15" 
+                    "url": "https://download.kde.org/stable/frameworks/5.53/portingAids/kdelibs4support-5.53.0.tar.xz",
+                    "sha256": "208a2f308aa55a1ec9c311e3c3224d65d78feb53a1df127b26007f046a9821aa"
                 } 
             ]
         },
@@ -56,8 +56,8 @@
             "sources": [
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/applications/18.08.0/src/kalzium-18.08.0.tar.xz",
-                    "sha256": "3d08e4fa2f7833bc82793fc9495e723112c1e1856bdbd789869bf71e728c572e"
+                    "url": "https://download.kde.org/stable/applications/18.12.0/src/kalzium-18.12.0.tar.xz",
+                    "sha256": "910dd1a323da6759727f6daa7ec0ff02c0cadb7c9b02c39bd6806d22431e6a48"
                 } 
             ]
         }
