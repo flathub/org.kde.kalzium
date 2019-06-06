@@ -44,8 +44,8 @@
             "sources": [
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kalzium-19.04.1.tar.xz",
-                    "sha256": "80798b3dca98cdd5ae24bbe7f077ecbe8def6bb96ad02a66ff69cb5312a459f5"
+                    "url": "https://download.kde.org/stable/applications/19.04.2/src/kalzium-19.04.2.tar.xz",
+                    "sha256": "9fad6ce4351922be8aa20c588240ad3d17517d4df27a7522cb99126f24aa941c"
                 } 
             ]
         }
