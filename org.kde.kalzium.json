@@ -20,8 +20,8 @@
             "sources": [
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/19.12.1/src/kalzium-19.12.1.tar.xz",
-                    "sha256": "f50cc18d94ce9a1aaedcbee3a5dccc2cc6723ac8ec151a0ae0ff60009a7c6943"
+                    "url": "https://download.kde.org/stable/release-service/19.12.2/src/kalzium-19.12.2.tar.xz",
+                    "sha256": "ce40143bdf33a7896b9e17fd3172287b33f6f2486bb0ecce2392d16bf88f9590"
                 } 
             ]
         }
