@@ -10,8 +10,7 @@
         "--share=ipc",
         "--socket=x11",
         "--socket=wayland",
-        "--filesystem=home",
-        "--filesystem=xdg-config/kdeglobals:ro"
+        "--filesystem=home"
     ],
     "modules": [
         {
