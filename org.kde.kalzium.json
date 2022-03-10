@@ -20,7 +20,13 @@
                 { 
                     "type": "archive", 
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/kalzium-21.12.3.tar.xz",
-                    "sha256": "944a544512ca0830520d4d121bf661c323795390e3ac200b3abaa261600b0ae2"
+                    "sha256": "944a544512ca0830520d4d121bf661c323795390e3ac200b3abaa261600b0ae2",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kalzium-$version.tar.xz"
+                    }
                 } 
             ]
         }
