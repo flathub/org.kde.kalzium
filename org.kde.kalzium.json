@@ -19,8 +19,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.1/src/kalzium-22.04.1.tar.xz",
-                    "sha256": "6e8c135ca5d61221eea60baddb6a06d8aff1db2f67ffec51b353597881ddc8ba",
+                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/kalzium-22.04.2.tar.xz",
+                    "sha256": "0631d96b6a33aaf6c6baedabdde198d8f832f6bfd28db5610947c3160b2fce20",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
