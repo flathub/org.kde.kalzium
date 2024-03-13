@@ -1,7 +1,7 @@
 {
     "id": "org.kde.kalzium",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "kalzium",
     "rename-icon": "kalzium",
@@ -12,15 +12,52 @@
         "--socket=wayland",
         "--filesystem=home"
     ],
+    "cleanup": [
+        "/doc",
+        "/include",
+        "/lib/cmake",
+        "/lib/libexec",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/doc",
+        "/share/eigen3",
+        "/share/man",
+        "/share/pkgconfig",
+        "*.a"
+    ],
     "modules": [
         {
-            "name": "kalzium",
+            "name": "eigen",
             "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "cleanup": [
+                "*.la"
+            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/kalzium-23.08.5.tar.xz",
-                    "sha256": "9bfc5574d6d324e71d16521c058acf82244e6dff1acdfc081117f56dbec06484",
+                    "url": "https://gitlab.com/libeigen/eigen/-/archive/3.4.0/eigen-3.4.0.tar.bz2",
+                    "sha256": "b4c198460eba6f28d34894e3a5710998818515104d6e74e5cc331ce31e46e626",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 666,
+                        "stable-only": true,
+                        "url-template": "https://gitlab.com/libeigen/eigen/-/archive/$version/eigen-$version.tar.bz2"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "kalzium",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DQT_MAJOR_VERSION=6"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/kalzium-24.02.0.tar.xz",
+                    "sha256": "0eec6d70416abe826b37280f74e05e96f29fb6b9b1b645755b808fc58a6d95a9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
