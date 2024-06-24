@@ -7,10 +7,10 @@
     "rename-icon": "kalzium",
     "finish-args": [
         "--device=dri",
+        "--filesystem=home",
         "--share=ipc",
-        "--socket=x11",
-        "--socket=wayland",
-        "--filesystem=home"
+        "--socket=fallback-x11",
+        "--socket=wayland"
     ],
     "cleanup": [
         "/doc",
