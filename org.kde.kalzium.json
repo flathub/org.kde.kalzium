@@ -56,8 +56,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/kalzium-25.08.3.tar.xz",
-                    "sha256": "36e6c4f46e1a5daaace14ebb5b1f6dac3429ad5df3d4fc1f0adeaec3e28e420b",
+                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/kalzium-25.12.0.tar.xz",
+                    "sha256": "9ff53a58e655a674056618522b7a2a44fa54b7e1f72f91b4d20104c28fe82b0b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
